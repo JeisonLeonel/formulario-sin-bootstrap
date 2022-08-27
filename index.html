@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="header">
+        <a href="#"><img src="img/icono.jpg" alt="logo"><label>Panaderia</label></a>
+
+        <a href="#">Inicio</a>
+    </nav>
+
+    <div class="titulo">
+        <h1>Gracias por contactarnos</h1>
+        <h3>Por favor diligencia este formulario</h3>
+    </div>
+    <section>
+        <form class="form-group">
+            
+                <label for="nombre">Nombres</label>
+                <input type="text" name="nombre" id="nombre"> 
+
+                <label for="apellidos">Apellidos</label>
+                <input type="text" name="apellidos" id="apellidos">
+
+                <label for="direccion">Dirección</label>
+                <input type="text" name="direccion" id="direccion">
+
+                <label for="telefono">Teléfono</label>
+                <input type="text" name="telefono" id="telefono">
+
+            <div class="list-genero"> 
+            <label for="genero">Género</label>
+                <div class="hombre">
+                    <input type="radio" name="hombre" id="hombre">
+                    <label for="hombre">Hombre</label>
+                </div>
+                <div class="mujer">
+                    <input type="radio" name="mujer" id="mujer">
+                    <label for="mujer">Mujer</label>
+                </div>
+            </div>
+
+            <div class="form-ubicacion"> 
+                <label for="telefono">País</label>
+                <br>
+                <input type="text" name="pais" id="pais">
+
+                <label for="telefono">Departamento</label>
+                <input type="text" name="departamento" id="departamento">
+
+                <label for="telefono">Ciudad</label>
+                <input type="text" name="ciudad" id="ciudad">
+            </div>
+            <br>
+            <div class="form-texto">
+                 <textarea class="texto" id="texto" rows="3"></textarea>
+            </div>
+
+            <div class="boton-guardar" >
+                <button type="button" class="guardar"><a href="#">Guardar</a></button>
+            </div>
+           
+        </form>
+    </section>
+
+    <footer class="pie-pagina">
+    </footer>
+</body>
+</html>
